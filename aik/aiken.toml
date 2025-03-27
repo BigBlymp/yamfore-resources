@@ -1,0 +1,26 @@
+name = "waalge/yamfore"
+version = "0.0.0"
+compiler = "v1.0.29-alpha"
+plutus = "v2"
+license = "Apache-2.0"
+description = "Aiken contracts for project 'yamfore'"
+
+[repository]
+user = "waalge"
+project = "yamfore"
+platform = "github"
+
+[[dependencies]]
+name = "aiken-lang/stdlib"
+version = "1.9.0"
+source = "github"
+
+[[dependencies]]
+name = "aiken-lang/fuzz"
+version = "55f22cc10d84bd84b5276ea78b6f7c88addab84d"
+source = "github"
+
+[[dependencies]]
+name = "orcfax/orcfax-aiken"
+version = "main"
+source = "github"
